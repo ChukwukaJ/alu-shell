@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-#Lists your processes
+#Lists currently running processes
+#Shows all processes, for all users, including those
+#which may not have a TTY
 echo "ps -aux | less" -o user,pid,ppid,cmd,%mem,%cpu,TTYL,time
